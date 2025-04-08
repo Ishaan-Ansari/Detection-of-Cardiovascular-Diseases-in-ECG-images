@@ -9,6 +9,37 @@ This project aims to detect cardiovascular diseases by classifying Electrocardio
 3.  **Abnormal Heartbeat:** ECG indicating arrhythmias or other heartbeat irregularities.
 4.  **History of Myocardial Infarction:** ECG showing signs of a past heart attack.
 
+
+## Project Structure
+
+```text
+ecg_classification/
+│
+├── data/
+│   └── raw/                    # Place raw class‑sorted images here (e.g., data/raw/Normal/*.jpg)
+│
+├── models/                     # Saved trained model weights (e.g., .pth files)
+├── reports/                    # Evaluation results, figures, training history
+│   ├── figures/                # Saved plots (e.g., confusion matrix)
+│   └── training_history.csv    # CSV log of training/validation metrics
+│
+├── src/                        # Source code modules
+│   ├── __init__.py
+│   ├── config.py               # Configuration (paths, hyperparameters)
+│   ├── data_loader.py          # Data loading & splitting logic
+│   ├── preprocessing.py        # Data preprocessing & augmentation
+│   ├── model.py                # CNN model architecture (PyTorch)
+│   ├── train.py                # Main training script
+│   ├── evaluate.py             # Evaluate trained model on test set
+│   └── utils.py                # Utility functions
+│
+├── venv/                       # Python virtual environment
+│
+├── app.py                      # Streamlit application
+├── requirements.txt            # Python dependencies
+└── README.md                   # This file
+```
+
 ## Dataset
 
 * **Type:** ECG Images (e.g., JPG, PNG format).
