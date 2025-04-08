@@ -24,14 +24,12 @@ ecg_classification/
 │   └── training_history.csv    # CSV log of training/validation metrics
 │
 ├── src/                        # Source code modules
-│   ├── __init__.py
 │   ├── config.py               # Configuration (paths, hyperparameters)
 │   ├── data_loader.py          # Data loading & splitting logic
 │   ├── preprocessing.py        # Data preprocessing & augmentation
 │   ├── model.py                # CNN model architecture (PyTorch)
 │   ├── train.py                # Main training script
 │   ├── evaluate.py             # Evaluate trained model on test set
-│   └── utils.py                # Utility functions
 │
 ├── venv/                       # Python virtual environment
 │
