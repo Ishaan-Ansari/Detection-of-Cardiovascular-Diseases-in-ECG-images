@@ -20,6 +20,8 @@ This project aims to detect cardiovascular diseases by classifying Electrocardio
     * `data/raw/History of MI/`
     The `data_loader.py` script automatically detects classes based on these folder names.
 
+ECG dataset used: https://data.mendeley.com/datasets/gwbz3fsgp8/2
+
 ## Requirements
 
 * Python 3.8+
