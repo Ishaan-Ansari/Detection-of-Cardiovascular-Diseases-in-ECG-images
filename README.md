@@ -29,7 +29,7 @@ ecg_classification/
 │   ├── preprocessing.py        # Data preprocessing & augmentation
 │   ├── model.py                # CNN model architecture (PyTorch)
 │   ├── train.py                # Main training script
-│   ├── evaluate.py             # Evaluate trained model on test set
+│   └── evaluate.py             # Evaluate trained model on test set
 │
 ├── venv/                       # Python virtual environment
 │
