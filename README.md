@@ -38,7 +38,7 @@ All necessary Python packages are listed in `requirements.txt`.
 
 1.  **Clone Repository (if applicable):**
     ```bash
-    # git clone <repository_url>
+    # git clone [<repository_url>](https://github.com/Ishaan-Ansari/Detection-of-Cardiovascular-Diseases-in-ECG-images.git)
     # cd ecg_classification
     ```
     (If you already have the files, just navigate to the project root directory `ecg_classification/`)
